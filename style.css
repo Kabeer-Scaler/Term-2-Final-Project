@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: black;
+  }
+  
+  header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #6200ea;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Progress Overview Section */
+  .progress-chart {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Quiz Section */
+  .quiz-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #quiz-question {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  #quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .quiz-option {
+    padding: 10px;
+    background-color: #f4f4f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .quiz-option:hover {
+    background-color: #ddd;
+  }
+  
+  #quiz-submit {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #quiz-submit:hover {
+    background-color: #3700b3;
+  }
+  
+
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #6200ea;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Learning Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Interactive Learning Dashboard</h1>
+    <p>Track your progress, take quizzes, and explore resources!</p>
+  </header>
+
+  <main>
+    <!-- Progress Overview Section -->
+    <section id="progress-overview">
+      <h2>Your Learning Progress</h2>
+      <div class="progress-chart">
+        <canvas id="progressChart"></canvas>
+      </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz-section">
+      <h2>Test Your Knowledge</h2>
+      <div class="quiz-container">
+        <div id="quiz-question"><p>Loading question...</p></div>
+        <p id="quiz-result"></p> <!-- Added this line to show correct/wrong feedback -->
+        <div id="quiz-options"></div>
+        <button id="quiz-submit">Submit</button>
+      </div>
+    </section>
+    
+
+   
+
+  <footer>
+    <p>&copy; 2025 Interactive Learning Dashboard</p>
+  </footer>
+
+  <!-- Include Chart.js for progress visualization -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
