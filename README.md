@@ -1,4 +1,5 @@
 📄 Interactive Learning Dashboard - Documentation
+
 1️⃣ Project Overview
 The Interactive Learning Dashboard is a web-based platform that allows users to:
 ✅ Track their learning progress 📊
@@ -14,15 +15,14 @@ Updates the chart dynamically as users answer quiz questions.
 📌 2. Quiz System (API Integrated)
 Fetches quiz questions from Open Trivia Database API.
 Randomizes answer options to prevent pattern recognition.
-Shows correct/incorrect feedback below the question.
-📌 3. Recommended Resources Section
-Displays useful learning resources with links to start learning.
-Can be extended with more dynamic content.
+Shows correct/incorrect feedback above the question.
+
+
 3️⃣ Technologies Used
 Technology	Purpose
-HTML5	Structure of the dashboard
-CSS3	Styling and responsiveness
-JavaScript (Vanilla JS)	Logic for quiz and progress tracking
-Chart.js	Visualization of quiz progress
-Open Trivia Database API	Fetching quiz questions dynamically
-LocalStorage	Storing user progress data
+HTML5:	Structure of the dashboard
+CSS3:	Styling and responsiveness
+JavaScript: (Vanilla JS)	Logic for quiz and progress tracking
+Chart.js:	Visualization of quiz progress
+Open Trivia Database API:	Fetching quiz questions dynamically
+LocalStorage:	Storing user progress data
